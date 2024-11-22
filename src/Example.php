@@ -1,6 +1,6 @@
 <?php
 
-namespace GabrielSoaresMaciel\PhpLibExample;
+namespace GabrielSoaresMaciel\AwsSdkPhpMock;
 
 class Example
 {

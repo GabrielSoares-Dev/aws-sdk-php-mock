@@ -1,11 +1,11 @@
-# gabrielsoaresmaciel/php-lib-example
+# gabrielsoaresmaciel/aws-sdk-php-mock
 
 Biblioteca de exemplo para publicação no packagist
 
 ## Instalação
 
 ```bash
-composer require gabrielsoaresmaciel/php-lib-example
+composer require gabrielsoaresmaciel/aws-sdk-php-mock
 ```
 
 ## Uso
@@ -14,7 +14,7 @@ Exemplo de como usar a biblioteca em um projeto.
 
 ```php
 
-use GabrielSoaresMaciel\PhpLibExample\Example;
+use GabrielSoaresMaciel\AwsSdkPhpMock;
 
 $exemplo = new Example();
 $exemplo->hello();

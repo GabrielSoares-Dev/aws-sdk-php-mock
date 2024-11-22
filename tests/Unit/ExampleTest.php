@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use GabrielSoaresMaciel\PhpLibExample\Example;
+use GabrielSoaresMaciel\AwsSdkPhpMock\Example;
 
 class ExampleTest extends TestCase
 {

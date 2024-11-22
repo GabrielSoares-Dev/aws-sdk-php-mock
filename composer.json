@@ -1,7 +1,7 @@
 {
-    "version": "1.2.0",
-    "name": "gabrielsoaresmaciel/php-lib-example",
-    "description": "php lib to learning how to create and publish in packagist",
+    "version": "1.0.0",
+    "name": "gabrielsoaresmaciel/aws-sdk-php-mock",
+    "description": "php lib to facilitate mock aws sdk in tests",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "GabrielSoaresMaciel\\PhpLibExample\\": "src/"
+            "GabrielSoaresMaciel\\AwsSdkPhpMock\\": "src/"
         }
     },
     "autoload-dev": {

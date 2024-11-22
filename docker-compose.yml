@@ -1,12 +1,12 @@
 version: '3.5'
 services:
-  boilerplate-php-lib:
+  aws-sdk-php-mock:
     build: .
     volumes:
-      - .:/app/boilerplate-php-lib
-      - volume-boilerplate-php-lib-vendor:/app/boilerplate-php-lib/vendor
+      - .:/app/aws-sdk-php-mock
+      - volume-aws-sdk-php-mock-vendor:/app/aws-sdk-php-mock/vendor
     stdin_open: true
     tty: true
 volumes:
- volume-boilerplate-php-lib-vendor:
-  name: volume-boilerplate-php-lib-vendor
+ volume-aws-sdk-php-mock-vendor:
+  name: volume-aws-sdk-php-mock-vendor
